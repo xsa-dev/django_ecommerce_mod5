@@ -9,3 +9,10 @@
 6. Enjoy :D
 
 To buy course you need follow [this link](https://codewithsteps.herokuapp.com/)
+
+# Ubuntu 18.04
+1. sudo apt-get update
+2. sudo apt-get install python3
+3. sudo apt-get install python3-venv
+4. sudo apt-get install python3-pip
+5. ...

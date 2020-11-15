@@ -81,3 +81,10 @@ class ShippingAddress(models.Model):
 
 	def __str__(self):
 		return self.address
+
+
+class ApplicationSettings(models.Model):
+	setting_name = models.CharField(max_length=255, null=False)
+	setting_value = models.CharField(max_length=255, null=False)
+	def __str__(self):
+		return self.setting_value
